@@ -57,7 +57,10 @@ class QbDownloadStatus:
         return get_readable_time(self.__info.eta)
 
     def status(self):
-        download = self.__info.state
+        try:
+            download = self.__info.state
+        except:
+            download = "downloading"
         if download in ["queuedDL", "queuedUP"]:
             return MirrorStatus.STATUS_WAITING
         elif download in ["pausedDL", "pausedUP"]:
