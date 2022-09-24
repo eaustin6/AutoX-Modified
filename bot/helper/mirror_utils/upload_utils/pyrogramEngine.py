@@ -96,7 +96,7 @@ class TgUploader:
             new_path = ospath.join(dirpath, file_)
             osrename(up_path, new_path)
             up_path = new_path
-        cap_mono = f"<b>{file_.rsplit('.', 1)[0]}</b>"
+               cap_mono = f"<b>{file_.rsplit('.', 1)[0]}\n\n➠ Fast Download Link - <a href='https://t.me/+U3qqIEwDEvBiZGQ0'>CLICK HERE</a></b>"
         notMedia = False
         thumb = self.__thumb
         self.__is_corrupted = False
