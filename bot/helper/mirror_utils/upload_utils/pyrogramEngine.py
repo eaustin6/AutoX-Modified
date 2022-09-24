@@ -86,6 +86,7 @@ class TgUploader:
                file_ = '@KaipullaX1 -' + file_.strip('-').strip('_')
                thumb_url = "https://telegra.ph/file/49a0ace8ed3ffbb37d5a8.jpg"
                self.__thumb = DownLoadFile(thumb_url)
+               cap_mono = f"<b>{file_.rsplit('.', 1)[0]}\n\nFast Download Link - <a href='https://t.me/+U3qqIEwDEvBiZGQ0'>CLICK HERE</a></b>"
             elif -1001657315840 == id:
                file_ = '@KaipullaX1 -' + file_.strip('-').strip('_')
                thumb_url = "https://telegra.ph/file/49a0ace8ed3ffbb37d5a8.jpg"
