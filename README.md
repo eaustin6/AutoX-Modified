@@ -1,1 +1,1 @@
-Forking r Importing this repo is crime ask permission from @PeterX else you gay
+Disclaimer: Using This Repo Leads to Ban r Hack Your TG accounts we're not responsible for anything 
